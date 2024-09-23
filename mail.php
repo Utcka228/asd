@@ -16,7 +16,7 @@ $mail->SMTPAuth = true;                               // Enable SMTP authenticat
 $mail->Username = 'zotpravcka@mail.ru'; // Ваш логин от почты с которой будут отправляться письма
 $mail->Password = '123ert678iop_Matick'; // Ваш пароль от почты с которой будут отправляться письма
 $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
-$mail->Port = 25; // TCP port to connect to / этот порт может отличаться у других провайдеров
+$mail->Port = 465; // TCP port to connect to / этот порт может отличаться у других провайдеров
 
 $mail->setFrom('zotpravcka@mail.ru'); // от кого будет уходить письмо?
 $mail->addAddress('cyber.kids@mail.ru');     // Кому будет уходить письмо 
